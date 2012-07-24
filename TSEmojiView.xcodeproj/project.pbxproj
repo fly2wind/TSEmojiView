@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		917DCB8715BE86E0008D7917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917DCB8615BE86E0008D7917 /* UIKit.framework */; };
+		917DCB8915BE86E0008D7917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917DCB8815BE86E0008D7917 /* Foundation.framework */; };
+		917DCB8B15BE86E0008D7917 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917DCB8A15BE86E0008D7917 /* CoreGraphics.framework */; };
+		917DCB9115BE86E0008D7917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 917DCB8F15BE86E0008D7917 /* InfoPlist.strings */; };
+		917DCB9315BE86E0008D7917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DCB9215BE86E0008D7917 /* main.m */; };
+		917DCB9715BE86E0008D7917 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DCB9615BE86E0008D7917 /* TSAppDelegate.m */; };
+		917DCB9A15BE86E0008D7917 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DCB9915BE86E0008D7917 /* TSViewController.m */; };
+		917DCBA515BE870B008D7917 /* TSEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DCBA415BE870A008D7917 /* TSEmojiView.m */; };
+		917DCBA715BE87BE008D7917 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917DCBA615BE87BE008D7917 /* QuartzCore.framework */; };
+		917DCBC815BE8857008D7917 /* emo_001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBAA15BE8856008D7917 /* emo_001@2x.png */; };
+		917DCBC915BE8857008D7917 /* emo_002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBAB15BE8856008D7917 /* emo_002@2x.png */; };
+		917DCBCA15BE8857008D7917 /* emo_003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBAC15BE8856008D7917 /* emo_003@2x.png */; };
+		917DCBCB15BE8857008D7917 /* emo_004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBAD15BE8856008D7917 /* emo_004@2x.png */; };
+		917DCBCC15BE8857008D7917 /* emo_005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBAE15BE8856008D7917 /* emo_005@2x.png */; };
+		917DCBCD15BE8857008D7917 /* emo_006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBAF15BE8856008D7917 /* emo_006@2x.png */; };
+		917DCBCE15BE8857008D7917 /* emo_007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB015BE8856008D7917 /* emo_007@2x.png */; };
+		917DCBCF15BE8857008D7917 /* emo_008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB115BE8856008D7917 /* emo_008@2x.png */; };
+		917DCBD015BE8857008D7917 /* emo_009@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB215BE8856008D7917 /* emo_009@2x.png */; };
+		917DCBD115BE8857008D7917 /* emo_010@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB315BE8856008D7917 /* emo_010@2x.png */; };
+		917DCBD215BE8857008D7917 /* emo_011@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB415BE8856008D7917 /* emo_011@2x.png */; };
+		917DCBD315BE8857008D7917 /* emo_012@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB515BE8856008D7917 /* emo_012@2x.png */; };
+		917DCBD415BE8857008D7917 /* emo_013@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB615BE8856008D7917 /* emo_013@2x.png */; };
+		917DCBD515BE8857008D7917 /* emo_014@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB715BE8856008D7917 /* emo_014@2x.png */; };
+		917DCBD615BE8857008D7917 /* emo_015@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB815BE8856008D7917 /* emo_015@2x.png */; };
+		917DCBD715BE8857008D7917 /* emo_016@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBB915BE8856008D7917 /* emo_016@2x.png */; };
+		917DCBD815BE8857008D7917 /* emo_017@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBBA15BE8856008D7917 /* emo_017@2x.png */; };
+		917DCBD915BE8857008D7917 /* emo_018@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBBB15BE8857008D7917 /* emo_018@2x.png */; };
+		917DCBDA15BE8857008D7917 /* emo_019@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBBC15BE8857008D7917 /* emo_019@2x.png */; };
+		917DCBDB15BE8857008D7917 /* emo_020@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBBD15BE8857008D7917 /* emo_020@2x.png */; };
+		917DCBDC15BE8857008D7917 /* emo_021@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBBE15BE8857008D7917 /* emo_021@2x.png */; };
+		917DCBDD15BE8857008D7917 /* emo_022@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBBF15BE8857008D7917 /* emo_022@2x.png */; };
+		917DCBDE15BE8857008D7917 /* emo_023@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC015BE8857008D7917 /* emo_023@2x.png */; };
+		917DCBDF15BE8857008D7917 /* emo_024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC115BE8857008D7917 /* emo_024@2x.png */; };
+		917DCBE015BE8857008D7917 /* emo_025@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC215BE8857008D7917 /* emo_025@2x.png */; };
+		917DCBE115BE8857008D7917 /* emo_026@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC315BE8857008D7917 /* emo_026@2x.png */; };
+		917DCBE215BE8857008D7917 /* emo_027@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC415BE8857008D7917 /* emo_027@2x.png */; };
+		917DCBE315BE8857008D7917 /* emo_028@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC515BE8857008D7917 /* emo_028@2x.png */; };
+		917DCBE415BE8857008D7917 /* emoji_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC615BE8857008D7917 /* emoji_touch.png */; };
+		917DCBE515BE8857008D7917 /* emoji_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DCBC715BE8857008D7917 /* emoji_touch@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		917DCB8215BE86E0008D7917 /* TSEmojiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSEmojiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917DCB8615BE86E0008D7917 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		917DCB8815BE86E0008D7917 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		917DCB8A15BE86E0008D7917 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		917DCB8E15BE86E0008D7917 /* TSEmojiView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSEmojiView-Info.plist"; sourceTree = "<group>"; };
+		917DCB9015BE86E0008D7917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		917DCB9215BE86E0008D7917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		917DCB9415BE86E0008D7917 /* TSEmojiView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSEmojiView-Prefix.pch"; sourceTree = "<group>"; };
+		917DCB9515BE86E0008D7917 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		917DCB9615BE86E0008D7917 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		917DCB9815BE86E0008D7917 /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		917DCB9915BE86E0008D7917 /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		917DCBA315BE870A008D7917 /* TSEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSEmojiView.h; path = Sources/TSEmojiView.h; sourceTree = "<group>"; };
+		917DCBA415BE870A008D7917 /* TSEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSEmojiView.m; path = Sources/TSEmojiView.m; sourceTree = "<group>"; };
+		917DCBA615BE87BE008D7917 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		917DCBAA15BE8856008D7917 /* emo_001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_001@2x.png"; sourceTree = "<group>"; };
+		917DCBAB15BE8856008D7917 /* emo_002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_002@2x.png"; sourceTree = "<group>"; };
+		917DCBAC15BE8856008D7917 /* emo_003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_003@2x.png"; sourceTree = "<group>"; };
+		917DCBAD15BE8856008D7917 /* emo_004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_004@2x.png"; sourceTree = "<group>"; };
+		917DCBAE15BE8856008D7917 /* emo_005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_005@2x.png"; sourceTree = "<group>"; };
+		917DCBAF15BE8856008D7917 /* emo_006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_006@2x.png"; sourceTree = "<group>"; };
+		917DCBB015BE8856008D7917 /* emo_007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_007@2x.png"; sourceTree = "<group>"; };
+		917DCBB115BE8856008D7917 /* emo_008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_008@2x.png"; sourceTree = "<group>"; };
+		917DCBB215BE8856008D7917 /* emo_009@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_009@2x.png"; sourceTree = "<group>"; };
+		917DCBB315BE8856008D7917 /* emo_010@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_010@2x.png"; sourceTree = "<group>"; };
+		917DCBB415BE8856008D7917 /* emo_011@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_011@2x.png"; sourceTree = "<group>"; };
+		917DCBB515BE8856008D7917 /* emo_012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_012@2x.png"; sourceTree = "<group>"; };
+		917DCBB615BE8856008D7917 /* emo_013@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_013@2x.png"; sourceTree = "<group>"; };
+		917DCBB715BE8856008D7917 /* emo_014@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_014@2x.png"; sourceTree = "<group>"; };
+		917DCBB815BE8856008D7917 /* emo_015@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_015@2x.png"; sourceTree = "<group>"; };
+		917DCBB915BE8856008D7917 /* emo_016@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_016@2x.png"; sourceTree = "<group>"; };
+		917DCBBA15BE8856008D7917 /* emo_017@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_017@2x.png"; sourceTree = "<group>"; };
+		917DCBBB15BE8857008D7917 /* emo_018@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_018@2x.png"; sourceTree = "<group>"; };
+		917DCBBC15BE8857008D7917 /* emo_019@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_019@2x.png"; sourceTree = "<group>"; };
+		917DCBBD15BE8857008D7917 /* emo_020@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_020@2x.png"; sourceTree = "<group>"; };
+		917DCBBE15BE8857008D7917 /* emo_021@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_021@2x.png"; sourceTree = "<group>"; };
+		917DCBBF15BE8857008D7917 /* emo_022@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_022@2x.png"; sourceTree = "<group>"; };
+		917DCBC015BE8857008D7917 /* emo_023@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_023@2x.png"; sourceTree = "<group>"; };
+		917DCBC115BE8857008D7917 /* emo_024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_024@2x.png"; sourceTree = "<group>"; };
+		917DCBC215BE8857008D7917 /* emo_025@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_025@2x.png"; sourceTree = "<group>"; };
+		917DCBC315BE8857008D7917 /* emo_026@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_026@2x.png"; sourceTree = "<group>"; };
+		917DCBC415BE8857008D7917 /* emo_027@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_027@2x.png"; sourceTree = "<group>"; };
+		917DCBC515BE8857008D7917 /* emo_028@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emo_028@2x.png"; sourceTree = "<group>"; };
+		917DCBC615BE8857008D7917 /* emoji_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_touch.png; sourceTree = "<group>"; };
+		917DCBC715BE8857008D7917 /* emoji_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_touch@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917DCB7F15BE86E0008D7917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917DCB8715BE86E0008D7917 /* UIKit.framework in Frameworks */,
+				917DCB8915BE86E0008D7917 /* Foundation.framework in Frameworks */,
+				917DCB8B15BE86E0008D7917 /* CoreGraphics.framework in Frameworks */,
+				917DCBA715BE87BE008D7917 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917DCB7715BE86E0008D7917 = {
+			isa = PBXGroup;
+			children = (
+				917DCBA615BE87BE008D7917 /* QuartzCore.framework */,
+				917DCB8C15BE86E0008D7917 /* TSEmojiView */,
+				917DCB8515BE86E0008D7917 /* Frameworks */,
+				917DCB8315BE86E0008D7917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917DCB8315BE86E0008D7917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917DCB8215BE86E0008D7917 /* TSEmojiView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917DCB8515BE86E0008D7917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917DCB8615BE86E0008D7917 /* UIKit.framework */,
+				917DCB8815BE86E0008D7917 /* Foundation.framework */,
+				917DCB8A15BE86E0008D7917 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		917DCB8C15BE86E0008D7917 /* TSEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				917DCBA815BE881B008D7917 /* Sources */,
+				917DCB9515BE86E0008D7917 /* TSAppDelegate.h */,
+				917DCB9615BE86E0008D7917 /* TSAppDelegate.m */,
+				917DCB9815BE86E0008D7917 /* TSViewController.h */,
+				917DCB9915BE86E0008D7917 /* TSViewController.m */,
+				917DCB8D15BE86E0008D7917 /* Supporting Files */,
+			);
+			path = TSEmojiView;
+			sourceTree = "<group>";
+		};
+		917DCB8D15BE86E0008D7917 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				917DCB8E15BE86E0008D7917 /* TSEmojiView-Info.plist */,
+				917DCB8F15BE86E0008D7917 /* InfoPlist.strings */,
+				917DCB9215BE86E0008D7917 /* main.m */,
+				917DCB9415BE86E0008D7917 /* TSEmojiView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		917DCBA815BE881B008D7917 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				917DCBA915BE8856008D7917 /* img */,
+				917DCBA315BE870A008D7917 /* TSEmojiView.h */,
+				917DCBA415BE870A008D7917 /* TSEmojiView.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		917DCBA915BE8856008D7917 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				917DCBAA15BE8856008D7917 /* emo_001@2x.png */,
+				917DCBAB15BE8856008D7917 /* emo_002@2x.png */,
+				917DCBAC15BE8856008D7917 /* emo_003@2x.png */,
+				917DCBAD15BE8856008D7917 /* emo_004@2x.png */,
+				917DCBAE15BE8856008D7917 /* emo_005@2x.png */,
+				917DCBAF15BE8856008D7917 /* emo_006@2x.png */,
+				917DCBB015BE8856008D7917 /* emo_007@2x.png */,
+				917DCBB115BE8856008D7917 /* emo_008@2x.png */,
+				917DCBB215BE8856008D7917 /* emo_009@2x.png */,
+				917DCBB315BE8856008D7917 /* emo_010@2x.png */,
+				917DCBB415BE8856008D7917 /* emo_011@2x.png */,
+				917DCBB515BE8856008D7917 /* emo_012@2x.png */,
+				917DCBB615BE8856008D7917 /* emo_013@2x.png */,
+				917DCBB715BE8856008D7917 /* emo_014@2x.png */,
+				917DCBB815BE8856008D7917 /* emo_015@2x.png */,
+				917DCBB915BE8856008D7917 /* emo_016@2x.png */,
+				917DCBBA15BE8856008D7917 /* emo_017@2x.png */,
+				917DCBBB15BE8857008D7917 /* emo_018@2x.png */,
+				917DCBBC15BE8857008D7917 /* emo_019@2x.png */,
+				917DCBBD15BE8857008D7917 /* emo_020@2x.png */,
+				917DCBBE15BE8857008D7917 /* emo_021@2x.png */,
+				917DCBBF15BE8857008D7917 /* emo_022@2x.png */,
+				917DCBC015BE8857008D7917 /* emo_023@2x.png */,
+				917DCBC115BE8857008D7917 /* emo_024@2x.png */,
+				917DCBC215BE8857008D7917 /* emo_025@2x.png */,
+				917DCBC315BE8857008D7917 /* emo_026@2x.png */,
+				917DCBC415BE8857008D7917 /* emo_027@2x.png */,
+				917DCBC515BE8857008D7917 /* emo_028@2x.png */,
+				917DCBC615BE8857008D7917 /* emoji_touch.png */,
+				917DCBC715BE8857008D7917 /* emoji_touch@2x.png */,
+			);
+			name = img;
+			path = Sources/img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917DCB8115BE86E0008D7917 /* TSEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917DCBA015BE86E0008D7917 /* Build configuration list for PBXNativeTarget "TSEmojiView" */;
+			buildPhases = (
+				917DCB7E15BE86E0008D7917 /* Sources */,
+				917DCB7F15BE86E0008D7917 /* Frameworks */,
+				917DCB8015BE86E0008D7917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSEmojiView;
+			productName = TSEmojiView;
+			productReference = 917DCB8215BE86E0008D7917 /* TSEmojiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917DCB7915BE86E0008D7917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Telenav Software, Inc.";
+			};
+			buildConfigurationList = 917DCB7C15BE86E0008D7917 /* Build configuration list for PBXProject "TSEmojiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 917DCB7715BE86E0008D7917;
+			productRefGroup = 917DCB8315BE86E0008D7917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917DCB8115BE86E0008D7917 /* TSEmojiView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917DCB8015BE86E0008D7917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917DCB9115BE86E0008D7917 /* InfoPlist.strings in Resources */,
+				917DCBC815BE8857008D7917 /* emo_001@2x.png in Resources */,
+				917DCBC915BE8857008D7917 /* emo_002@2x.png in Resources */,
+				917DCBCA15BE8857008D7917 /* emo_003@2x.png in Resources */,
+				917DCBCB15BE8857008D7917 /* emo_004@2x.png in Resources */,
+				917DCBCC15BE8857008D7917 /* emo_005@2x.png in Resources */,
+				917DCBCD15BE8857008D7917 /* emo_006@2x.png in Resources */,
+				917DCBCE15BE8857008D7917 /* emo_007@2x.png in Resources */,
+				917DCBCF15BE8857008D7917 /* emo_008@2x.png in Resources */,
+				917DCBD015BE8857008D7917 /* emo_009@2x.png in Resources */,
+				917DCBD115BE8857008D7917 /* emo_010@2x.png in Resources */,
+				917DCBD215BE8857008D7917 /* emo_011@2x.png in Resources */,
+				917DCBD315BE8857008D7917 /* emo_012@2x.png in Resources */,
+				917DCBD415BE8857008D7917 /* emo_013@2x.png in Resources */,
+				917DCBD515BE8857008D7917 /* emo_014@2x.png in Resources */,
+				917DCBD615BE8857008D7917 /* emo_015@2x.png in Resources */,
+				917DCBD715BE8857008D7917 /* emo_016@2x.png in Resources */,
+				917DCBD815BE8857008D7917 /* emo_017@2x.png in Resources */,
+				917DCBD915BE8857008D7917 /* emo_018@2x.png in Resources */,
+				917DCBDA15BE8857008D7917 /* emo_019@2x.png in Resources */,
+				917DCBDB15BE8857008D7917 /* emo_020@2x.png in Resources */,
+				917DCBDC15BE8857008D7917 /* emo_021@2x.png in Resources */,
+				917DCBDD15BE8857008D7917 /* emo_022@2x.png in Resources */,
+				917DCBDE15BE8857008D7917 /* emo_023@2x.png in Resources */,
+				917DCBDF15BE8857008D7917 /* emo_024@2x.png in Resources */,
+				917DCBE015BE8857008D7917 /* emo_025@2x.png in Resources */,
+				917DCBE115BE8857008D7917 /* emo_026@2x.png in Resources */,
+				917DCBE215BE8857008D7917 /* emo_027@2x.png in Resources */,
+				917DCBE315BE8857008D7917 /* emo_028@2x.png in Resources */,
+				917DCBE415BE8857008D7917 /* emoji_touch.png in Resources */,
+				917DCBE515BE8857008D7917 /* emoji_touch@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917DCB7E15BE86E0008D7917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917DCB9315BE86E0008D7917 /* main.m in Sources */,
+				917DCB9715BE86E0008D7917 /* TSAppDelegate.m in Sources */,
+				917DCB9A15BE86E0008D7917 /* TSViewController.m in Sources */,
+				917DCBA515BE870B008D7917 /* TSEmojiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		917DCB8F15BE86E0008D7917 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917DCB9015BE86E0008D7917 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		917DCB9E15BE86E0008D7917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		917DCB9F15BE86E0008D7917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		917DCBA115BE86E0008D7917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSEmojiView/TSEmojiView-Prefix.pch";
+				INFOPLIST_FILE = "TSEmojiView/TSEmojiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		917DCBA215BE86E0008D7917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSEmojiView/TSEmojiView-Prefix.pch";
+				INFOPLIST_FILE = "TSEmojiView/TSEmojiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917DCB7C15BE86E0008D7917 /* Build configuration list for PBXProject "TSEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917DCB9E15BE86E0008D7917 /* Debug */,
+				917DCB9F15BE86E0008D7917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917DCBA015BE86E0008D7917 /* Build configuration list for PBXNativeTarget "TSEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917DCBA115BE86E0008D7917 /* Debug */,
+				917DCBA215BE86E0008D7917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917DCB7915BE86E0008D7917 /* Project object */;
+}
