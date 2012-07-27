@@ -10,7 +10,7 @@ Please refer the demo project.
 
 ## Preview
 - 
-<img src="http://media3.doudouy.com/users/560/userPhoto/origin/1343364223710.jpg"/>
+<img src="http://media3.doudouy.com/users/560/userPhoto/400/1343364223710.jpg"/>
 
 ## Contrat me
 
