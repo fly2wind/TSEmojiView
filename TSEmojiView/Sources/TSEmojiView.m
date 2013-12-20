@@ -65,8 +65,8 @@
 // TSEmojiView
 //==============================================================================
 @interface TSEmojiView() {
-    NSMutableArray *_emojiArray;
-    NSMutableArray *_symbolArray;
+    NSArray *_emojiArray;
+    NSArray *_symbolArray;
     
     NSInteger _touchedIndex;
     TSEmojiViewLayer *_emojiPadLayer;
